@@ -1,0 +1,52 @@
+.header {
+  background-image: url("img/bg.jpg");
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form.inline {
+  display: flex;
+  position: relative;
+  margin-bottom: 70px;
+}
+.searchbtn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: none;
+  background: #009ad8;
+  padding: 10px 40px;
+  border-radius: 30px;
+  color: white;
+  -webkit-appearance: button;
+  cursor: pointer;
+  font-family: Poppins, "Open Sans", sans-serif;
+}
+
+.find-location input[type="text"] {
+  width: 100%;
+  padding-left: 20px !important;
+  padding: 20px 10px 20px 20px;
+  background: #1e202b;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  font-family: Poppins, "Open Sans", sans-serif;
+}
+.info_weather {
+  bottom: 130px;
+  background: #242c40;
+}
+.card_body {
+  color: white;
+}
+h1 {
+  font-family: Poppins, "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 65px;
+}
+p {
+  font-family: Poppins, "Open Sans", sans-serif;
+}
